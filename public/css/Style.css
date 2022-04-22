@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../img/1.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.main{
+    width: 400px;
+    height: auto;
+    color: #fff;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.heading{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+input,
+.submit-button{
+    width: 80%;
+    height: 35px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+    background: rgba(255,255, 255, .3);
+    border: none;
+    color:#fff;
+    padding: 10px;
+    transition: .5s;
+    text-transform:capitalize;
+}
+
+input:focus,
+.submit-button:hover{
+    color: black;
+    background: #fff;
+}
+
+input::placeholder{
+    color: #fff;
+}
+
+.submit-button{
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    margin: 25px auto;
+    font-weight: 200px;
+    font-size: 20px;
+}
+
+.link{
+    text-align: center;
+    text-transform: capitalize;
+    display: block;
+    color:cornflowerblue;
+    margin: 25px auto;
+
+}
+
+.link:hover{
+    color: #fff;
+}
+
+.alert-box{
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 150px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    text-transform: capitalize;
+    background: rgb(255, 119, 119);
+    border-top: 10px solid rgb(255, 37, 37);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color:#fff;
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+    transition: 1s;
+
+
+
+}
